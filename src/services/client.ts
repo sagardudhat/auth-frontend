@@ -59,7 +59,7 @@ export interface ClientOptions {
   config?: Config;
 }
 
-export class Client {
+export className Client {
   private axiosInstance: AxiosInstance;
 
   constructor({ axiosInstance, config }: ClientOptions = {}) {

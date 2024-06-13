@@ -16,9 +16,9 @@ export default function Provider({
 }>) {
   return (
     <ReduxProvider store={store}>
-      <Header />
+      {/* <Header /> */}
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </ReduxProvider>
   );
 }

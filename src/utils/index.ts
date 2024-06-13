@@ -1,7 +1,7 @@
 import { getAuthToken } from '../services/client-storage';
 
-export function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ');
+export function classNameNames(...classNamees: string[]) {
+  return classNamees.filter(Boolean).join(' ');
 }
 
 export function canUseDOM() {
